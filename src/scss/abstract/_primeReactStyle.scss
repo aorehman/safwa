@@ -1,0 +1,95 @@
+.p-steps .p-steps-item.p-highlight .p-steps-number {
+  background-color: $primary;
+  color: $white;
+}
+
+.p-primary-btn {
+  background-color: $primary;
+  border-color: $primary;
+
+  &:hover {
+    background-color: darken($color: $primary, $amount: 10) !important;
+    border-color: darken($color: $primary, $amount: 10) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $secondary !important;
+  }
+}
+
+html.dark .p-primary-btn,
+.p-primary-input {
+  &:hover {
+    border-color: darken($color: $primary, $amount: 10) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $secondary !important;
+  }
+}
+
+.p-primary-highlight-btn {
+  background-color: $primary;
+  border-color: $primary;
+
+  &:hover {
+    background-color: darken($color: $primary, $amount: 10) !important;
+    border-color: darken($color: $primary, $amount: 10) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $secondary !important;
+  }
+}
+
+html.dark .p-orange-btn,
+.p-orange-btn {
+  background-color: $sOrange;
+  border-color: $sOrange;
+
+  &:hover {
+    background-color: darken($color: $sOrange, $amount: 10) !important;
+    border-color: darken($color: $sOrange, $amount: 10) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem lighten($color: $sOrange, $amount: 50) !important;
+  }
+}
+
+[dir="rtl"] .p-password i {
+  left: 3rem; /* Adjust the value as needed */
+  right: auto;
+}
+
+.p-input-icon-left,
+.p-input-icon-right {
+  position: relative;
+  display: inline-block;
+}
+
+.p-menu .p-menu-separator {
+  border-top: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+.profile-menu .p-menuitem-link {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.p-breadcrumb {
+  padding: 0 !important;
+  background: inherit !important;
+  border: none !important;
+  margin-bottom: 0.25rem !important;
+}
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight,
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  color: $primary !important;
+  background-color: lighten($color: $primary, $amount: 42) !important;
+}
+
+.p-paginator-left-content{
+  @apply rtl:ml-auto rtl:mr-0;
+}
+
+.vertical-timeline-element-date
+{
+  margin-left: 0.5rem;
+}

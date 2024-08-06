@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background: #f4f7fe;
+  overflow: hidden;
+}
+
+.card {
+  background: #ffffff;
+}
+
+html.dark body {
+  background: #040d19;
+}
+
+html.dark .card {
+  background: #071426;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+::-webkit-scrollbar
+{
+  width: 10px ;
+}
+::-webkit-scrollbar-track
+{
+  background:#f1f1f1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb
+{
+  background: rgb(217, 216, 216);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background: #98bdff;
+}
+
+.p-dropdown-empty-message
+{
+  text-align: center;
+}

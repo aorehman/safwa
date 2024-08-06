@@ -1,0 +1,7 @@
+.link {
+  @apply p-2.5 flex rounded-md gap-6 items-center md:cursor-pointer cursor-default duration-300 font-medium dark:text-white;
+}
+
+.active {
+  @apply bg-secondary text-primary dark:text-primary dark:bg-secondary;
+}
